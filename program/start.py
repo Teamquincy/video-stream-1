@@ -53,11 +53,11 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
+💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **I help you lovely music player in your voice chat🥀!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+💡 **Deployed by @SANTA_R1,credits @doozylab_lk 😘🌍**
 
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+🔖 **To know how to use this bot, 🎋please click on the » ❓ Basic Guide button🎸🎻!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -67,22 +67,22 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("ʙᴀsɪᴄ ɢᴜɪᴅᴇ🚀", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbbasic"),
-                    InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅs🌧️", callback_data="cbbasic"),
+                    InlineKeyboardButton("☔ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
                         "ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ᴄʜᴀɴɴᴇʟ🔥", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/doozylab-lk/video-stream"
+                        "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ🎀", url="https://github.com/doozylab-lk/video-stream"
                     )
                 ],
             ]
